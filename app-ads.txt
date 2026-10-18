@@ -1,0 +1,5 @@
+# app-ads.txt - Kerem Ali Arat (KAASHIF)
+# AdMob hesabı açılınca aşağıdaki satırın başındaki # işaretini kaldırıp
+# pub-0000000000000000 yerine AdMob yayıncı kimliğini yaz
+# (AdMob > Uygulamalar > Tüm uygulamaları göster > app-ads.txt bölümünde hazır satır verilir).
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
