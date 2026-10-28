@@ -49,7 +49,7 @@
 <p>İçe aktardığın GPX / FIT / TCX dosyaları ve KAASHIF ile kaydettiğin aktiviteler yalnızca cihazında saklanır.</p>
 
 <h2>4. Üçüncü taraf hizmetler</h2>
-<p>Harita ve arazi görüntüleri; OpenStreetMap, Esri ve AWS Terrarium sunucularından indirilir. Bu sunucular, her harita isteğinde olduğu gibi görüntülenen harita bölgesini ve IP adresini görür. Yer koleksiyonu için yalnızca bölge sınırları OpenStreetMap Overpass sunucularına gönderilir; rotan gönderilmez. Rota oluştururken bir yer ararsan yazdığın arama ve yaklaşık konumun, en yakın sonuçları göstermek için komoot'un Photon sunucusuna (OpenStreetMap verisi) gönderilir.</p>
+<p>Harita ve arazi görüntüleri; OpenStreetMap, Esri ve AWS Terrarium sunucularından indirilir. Bu sunucular, her harita isteğinde olduğu gibi görüntülenen harita bölgesini ve IP adresini görür. Rota planlarken o alanın yol haritası parçaları OpenFreeMap'ten (OpenStreetMap verisi) indirilir; bu sunucu yalnızca istenen parçaları ve IP adresini görür. Yer koleksiyonu için ve yol parçaları alınamadığında yalnızca bölge sınırları OpenStreetMap Overpass sunucularına gönderilir; rotan gönderilmez. Rota oluştururken bir yer ararsan yazdığın arama ve yaklaşık konumun, en yakın sonuçları göstermek için komoot'un Photon sunucusuna (OpenStreetMap verisi) gönderilir.</p>
 
 <h2>5. Paylaşım</h2>
 <p>Bir rota görselini, videoyu ya da GPX dosyasını yalnızca sen paylaşmayı seçersen, seçtiğin uygulamaya aktarılır. Başlangıç ve bitiş noktalarının çevresini gizleme seçeneği vardır.</p>
@@ -110,7 +110,7 @@
 <p>GPX / FIT / TCX files you import and activities you record with KAASHIF are stored only on your device.</p>
 
 <h2>4. Third-party services</h2>
-<p>Map and terrain images are downloaded from OpenStreetMap, Esri and AWS Terrarium servers, which see the map area being displayed and your IP address, as with any map request. For the place collection, only area boundaries are sent to OpenStreetMap Overpass servers; your route is not sent. When you search for a place while planning a route, the search text and your approximate location are sent to komoot's Photon server (OpenStreetMap data) to list the nearest results first.</p>
+<p>Map and terrain images are downloaded from OpenStreetMap, Esri and AWS Terrarium servers, which see the map area being displayed and your IP address, as with any map request. When you plan a route, the road map tiles of that area are downloaded from OpenFreeMap (OpenStreetMap data); that server only sees which tiles are requested and your IP address. For the place collection, and when road tiles can't be loaded, only area boundaries are sent to OpenStreetMap Overpass servers; your route is not sent. When you search for a place while planning a route, the search text and your approximate location are sent to komoot's Photon server (OpenStreetMap data) to list the nearest results first.</p>
 
 <h2>5. Sharing</h2>
 <p>A route image, video or GPX file is passed to another app only when you choose to share it. You can hide the area around the start and finish.</p>
